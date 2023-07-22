@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #6b62a1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    background-color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+
+.card .title h1 {
+    color: #233646;
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.card .title {
+    border-bottom: 2px solid #f3f5f4;
+    padding-top: 18px;
+    padding-bottom: 12px;
+}
+
+.apps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 2px solid #f3f5f4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #7894a9;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.app img {
+    height: auto;
+    width: 100px;
+    padding: 25px;
+}
+
+.button {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+
+}
+
+.button .call-to-action {
+    background-color: #6680ff;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.app:hover {
+    box-shadow: 0 0 10px rgba(102, 128, 255, 0.5);
+}
+
+.app:hover .add {
+    display: block;
+    opacity: 1;
+}
+
+.app:hover .name {
+    display: none;
+}
+
+.add {
+    background-color: #7ed321;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80%;
+    transition: opacity 0.4s ease;
+    opacity: 0;
+}
+
+
+.name {
+    padding: 5px;
+}
