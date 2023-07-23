@@ -1,3 +1,84 @@
-.color {
+body {
     background-color: #eeeffc;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #dddfff;
+}
+
+.article {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.article .title {
+    display: flex;
+    justify-content: center;
+}
+
+.article .title h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #494e79;
+    ;
+}
+
+.paragraph p {
+    font-size: 13px;
+    color: #494e79;
+    line-height: 2;
+}
+
+.author {
+    border-top: 1px #ebebeb solid;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+    color: #494e79;
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+.credentials #gray {
+    color: #5b6480;
+    font-size: smaller;
+}
+
+.author .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.new {
+    position: absolute;
+    top: 83px;
+    right: 1100px;
+    background-color: #f85e8a;
+    color: #ffffff;
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    box-shadow: 3px 3px 5px #f8bccd;
+
 }
