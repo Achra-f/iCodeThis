@@ -1,0 +1,206 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f9f9fc;
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: #131b32;
+    box-shadow: 10px 10px 10px #e7e6fb;
+}
+
+.overview {
+    padding-left: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.overview h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.accounts {
+    width: 40%;
+    border-right: 2px #f2f5fd solid;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    border-top: 2px #f2f5fd solid;
+    padding-left: 35px;
+    padding-bottom: 15px;
+    gap: 15px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.wallet {
+    display: flex;
+    flex-direction: column;
+}
+
+.options {
+    display: flex;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+.money p {
+    font-size: 13px;
+}
+
+.money span {
+    font-weight: 700;
+}
+
+.options {
+    display: flex;
+    gap: 15px;
+
+}
+
+.deposit,
+.withdraw {
+    border: 2px #f2f5fd solid;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 5px;
+    color: #131b32;
+    font-size: 13px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.deposit span,
+.withdraw span {
+    color: #7d7d7d;
+}
+
+.new-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #b2acf3;
+    border-radius: 30px;
+    width: 80%;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px #b2acf3;
+    cursor: pointer;
+}
+
+.transactions {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: #f2f5fd 2px solid;
+    width: 60%;
+}
+
+.title p {
+    color: #7d7d7d;
+    text-transform: uppercase;
+}
+
+.transaction {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 2px #f2f5fd solid;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.details:hover {
+    background-color: #b2acf3;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.symbol {
+    border: 2px #f2f5fd solid;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.date {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #7d7d7d;
+}
+
+.month {
+    font-weight: 600;
+}
+
+.desc-title {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.currency {
+    font-size: 10px;
+    color: #7d7d7d;
+}
+
+.bold {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.small {
+    font-size: 10px;
+    color: #7d7d7d;
+}
+
+
+.details:hover {
+    background-color: #e7e6fb;
+}
