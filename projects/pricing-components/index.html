@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Pricing components</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+      
+    </style>
+    <style>
+      .slider {
+          -webkit-appearance: none;
+          width: 100%;
+          height: 10px;
+          background: #f9833e;
+          outline: none;
+          opacity: 0.7;
+          -webkit-transition: .2s;
+          transition: opacity .2s;
+          border-radius: 5px;
+          margin-top: 1rem;
+      }
+  
+      .slider::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 20px;
+          height: 20px;
+          background: white;
+          border: 2px solid #f9833e;
+          border-radius: 50%;
+          cursor: pointer;
+      }
+  
+      .slider::-moz-range-thumb {
+          width: 20px;
+          height: 20px;
+          background: white;
+          border: 2px solid white;
+          border-radius: 50%;
+          cursor: pointer;
+      }
+  </style>
+  
+  </head>
+  <body
+    style="background-color: #141829; color: white"
+    class="flex justify-center items-center h-screen"
+  >
+    <div class="flex flex-wrap">
+      <div
+        class="w-1/2 rounded-lg"
+        style="
+          background-image: linear-gradient(to bottom right, #fe7550, #f3872c);
+        "
+      >
+        <div class="p-10">
+          <div class="flex flex-col gap-5">
+            <h1 class="text-xl font-extrabold">Free plan</h1>
+            <p class="font-medium">
+              Get a free plan with uo to 5000 active users and unlimited logins.
+              No credit card required.
+            </p>
+            <div
+              class="bg-white text-black font-bold rounded-lg text-center pt-5 pb-5 w-3/4 cursor-pointer"
+            >
+              Start for free
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-1/2 flex justify-center">
+        <div class="flex flex-col gap-5 items-center justify-center">
+          <h1 class="font-medium">What is your use case?</h1>
+          <div class="flex font-bold cursor-pointer">
+            <div
+              class="flex-1 p-2 hover:bg-white hover:text-black border pt-2 pr-4 pb-2 pl-4"
+            >
+              <p>B2C</p>
+            </div>
+            <div
+              class="flex-1 p-2 hover:bg-white hover:text-black border pt-2 pr-4 pb-2 pl-4"
+            >
+              <p>B2B</p>
+            </div>
+            <div
+              class="flex-1 p-2 hover:bg-white hover:text-black border pt-2 pr-4 pb-2 pl-4"
+            >
+              <p>B2E</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full p-4 flex justify-center items-center flex-col mt-20">
+        <h1 class="font-extrabold">How many active users?</h1>
+        <div>
+          <div class="w-15">
+            <input type="range" min="1000" max="10000" value="50" class="slider bg-orange" id="mySlider">
+            
+          </div>
+          <div class="flex justify-between">
+            <p>1,000</p>
+            <p>10,000</p>
+          </div>
+          
+        </div>
+        <p>Value: <span id="sliderValue">1000</span></p>
+      </div>
+    </div>
+  </body>
+</html>
