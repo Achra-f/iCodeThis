@@ -1,0 +1,65 @@
+/* Add CSS here */body {
+    background-image: url(/images/iCodeMas/snow_bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1,
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    gap: 15px;
+  }
+  
+  h1 {
+      font-size: 3rem;
+      color: white;
+      font-weight: 600;
+  }
+  
+  p {
+      display: flex;
+      justify-content: center;
+      color: white;
+  }
+  
+  .count {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      font-weight: 600;
+  
+  }
+  
+  .day {
+      font-size: 1rem;
+  }
+  
+  .time {
+      font-size: 5rem;
+  }
+  
+  .col {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      color: #0a3d4c;
+  }
