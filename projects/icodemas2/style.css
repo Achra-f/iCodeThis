@@ -1,0 +1,138 @@
+body {
+  background-color: #1a7592;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+.container {
+  background-color: #eaf4fc;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.wrapper {
+  padding: 5rem 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.heading__title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.heading__desc {
+  font-size: 1rem;
+  text-align: center;
+  color: #334155;
+}
+
+.products {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.products__item {
+  background-color: white;
+  padding: 2rem;
+  position: relative;
+}
+
+.new {
+  border: 4px #1a7592 solid;
+}
+
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  color: white;
+  background-color: #1a7592;
+  padding: 0.5rem 0.8rem;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  color: white;
+  background-color: #e75854;
+  padding: 0.5rem 0.8rem;
+}
+
+.featured {
+  display: flex;
+  gap: 2rem;
+}
+
+.featured__item {
+  background-color: white;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.featured_desc {
+  flex: 1;
+}
+
+.featured_desc {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.featured__title {
+}
+
+.featured__price {
+  font-weight: 600;
+  font-size: large;
+}
+
+.featured__rating {
+  display: flex;
+}
+
+.featured__description {
+  color: #475569;
+}
+
+.featured__btn {
+  background-color: #1a7592;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white; /* White text color */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 25%;
+  margin-top: 130px;
+}
+
+.star {
+  display: inline-block;
+  margin-right: 5px; /* Adjust the spacing between stars */
+  color: gold; /* Set the color of the filled star */
+  font-size: 1.7rem;
+}
