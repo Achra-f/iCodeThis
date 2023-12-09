@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: "General Sans", sans-serif;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.product {
+    position: relative;
+}
+
+.product__title {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.product__price {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.new-label {
+    position: absolute;
+    padding: 0.5rem 1rem;
+    background-color: #227393;
+    color: white;
+    text-transform: uppercase;
+}
+
+.discount-label {
+    position: absolute;
+    padding: 0.5rem 1rem;
+    background-color: #e65a53;
+    color: white;
+    text-transform: uppercase;
+}
+
+.img {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9fbfc;
+    padding: 2rem;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+  }
+
+.product__btn {
+    background-color: #227393;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    position: absolute;
+    bottom: 3rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.product:hover .product__btn {
+    opacity: 1;
+}
+
+.product__added {
+    background-color: #cee6fb;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: absolute;
+    opacity: 0;
+    bottom: 3rem;
+    width: 100%;
+    transition: opacity 0.3s ease;
+    display: none;
+}
+
+.product:hover .product__added {
+    opacity: 1
+}
+
+
+
+/* xs */
+@media (min-width: 475px) {
+    .container {
+      max-width: 475px;
+    }
+
+
+  }
+  
+  /* sm */
+  @media (min-width: 640px) {
+    .container {
+      max-width: 640px;
+    }
+    .container {
+        grid-gap: 1rem;
+        grid-template-columns: repeat(4, 1fr); 
+    }
+  }
+  
+  /* md */
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+
+   
+  }
+  
+  /* lg */
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  /* xL */
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  
+  /* 2xL */
+  @media (min-width: 1536px) {
+    .container {
+      max-width: 1536px;
+    }
+  }
