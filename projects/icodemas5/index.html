@@ -20,21 +20,33 @@
   </head>
   <body>
     <div class="container">
+      <div class="banner" id="banner">
+        <p>Use code "XMAS" for a 20% discount at checkout.</p>
+        <span class="close-btn" onclick="closeBanner()">✖</span>
+      </div>
       <nav class="navigation">
         <div class="navigation__left">
-          <div>iCodeMas</div>
-          <div>
-           <input type="text" placeholder="Search" /> 
+          <div class="navigation__title">iCodeMas</div>
+          <div class="form">
+            <input type="text" placeholder="Search" />
+            <i class="gg-search"></i>
           </div>
         </div>
         <div class="navigation__right">
           <div>Featured</div>
           <div>Shop</div>
           <div>FAQ</div>
-          <div><i class="gg-shopping-bag"></i></div>
+          <div class="bag">
+            <i class="gg-shopping-bag"></i>
+            <div class="notification">2</div>
+          </div>
         </div>
       </nav>
     </div>
+    <script>
+      function closeBanner() {
+          document.getElementById('banner').style.display = 'none';
+      }
+  </script>
   </body>
 </html>
-<i class="gg-search"></i>
