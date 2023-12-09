@@ -3,14 +3,14 @@
         {
             "id": 1,
             "name": "Christmas Tree Decoration",
-            "image": "img.png",
+            "image": "/images/iCodeMas/tree.png",
             "price": "19.99",
             "new": true
         },
         {
             "id": 2,
             "name": "Gift Box",
-            "image": "img.png",
+            "image": "/images/iCodeMas/gift.png",
             "price": "9.99",
             "new": false,
             "discount": 23
@@ -18,70 +18,70 @@
         {
             "id": 3,
             "name": "Gingerbread Man Cookie",
-            "image": "img.png",
+            "image": "/images/iCodeMas/gingerbread_cookie.png",
             "price": "12.99",
             "new": false
         },
         {
             "id": 4,
             "name": "Snowflake Decoration",
-            "image": "img.png",
+            "image": "images/iCodeMas/snowflake.png",
             "price": "4.99",
             "new": false
         },
         {
             "id": 5,
             "name": "Star-shaped Cookie",
-            "image": "img.png",
+            "image": "https://icodethis.com/images/iCodeMas/star_cookie.png",
             "price": "12.99",
             "new": false
         },
         {
             "id": 6,
             "name": "Santa's Hat",
-            "image": "img.png",
+            "image": "https://icodethis.com/images/iCodeMas/santa_hat.png",
             "price": "39.99",
             "new": false
         },
         {
             "id": 7,
             "name": "Candy Cane",
-            "image": "img.png",
+            "image": "https://icodethis.com/images/iCodeMas/candy_cane.png",
             "price": "8.99",
             "new": false
         },
         {
             "id": 8,
             "name": "Snowman Decoration",
-            "image": "img.png",
+            "image": "https://icodethis.com/images/iCodeMas/snowman_deco.png",
             "price": "8.99",
             "new": true
         },
         {
             "id": 9,
             "name": "Christmas Ball",
-            "image": "img.png",
+            "image": "https://icodethis.com/images/iCodeMas/christmas_ball.png",
             "price": "8.99",
             "new": false
         },
         {
             "id": 10,
             "name": "Christmas Red Socks",
-            "image": "img.png",
+            "image": "https://icodethis.com/images/iCodeMas/christmas_sock.png",
             "price": "8.99",
             "new": false
         },
         {
             "id": 11,
             "name": "Red Ribbon",
-            "image": "img.png",
+            "image": "https://icodethis.com/images/iCodeMas/red_ribbon.png",
             "price": "8.99",
             "new": false
         },
         {
             "id": 12,
             "name": "Christmas Tree Cookie",
-            "image": "img.png",
+            "image": "https://icodethis.com/images/iCodeMas/tree_cookie.png",
             "price": "8.99",
             "new": false
         }

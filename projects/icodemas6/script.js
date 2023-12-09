@@ -1,6 +1,6 @@
 async function getProducts() {
   try {
-    const response = await fetch("products.json");
+    const response = await fetch("https://raw.githubusercontent.com/Achra-f/iCodeThis/main/projects/icodemas6/products.json");
     const jsonData = await response.json();
     return jsonData;
   } catch (error) {
