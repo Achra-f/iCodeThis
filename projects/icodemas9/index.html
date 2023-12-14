@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/chevron-down.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="dropdown">
+      <div class="dropdown__select">
+        <div class="dropdown__select-choice">
+          Choice
+        </div>
+        <div class="dropdown__select-down">
+          <i class="gg-chevron-down" onclick="toggleDropdown()"></i>
+        </div>
+      </div>
+      <div class="dropdown__list" id="dropdown">
+        <div class="dropdown__item">Recommended</div>
+        <div class="dropdown__item">Popular</div>
+        <div class="dropdown__item">Sales</div>
+        <div class="dropdown__item">Price</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
