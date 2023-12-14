@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "General Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a7592;
+}
+
+h1,
+p {
+  padding: 0;
+  margin: 0;
+}
+.donation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 3rem 6rem;
+  gap: 1rem;
+  position: relative;
+}
+
+.donation__title {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.donation__desc {
+  text-align: center;
+}
+
+.donation__custom {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+}
+
+.donation__custom-sign {
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(214, 214, 214);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donation__custom-amount {
+  padding: 0.5rem 1rem;
+  border: 1px solid #1a7592;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.3rem;
+  width: 100%;
+}
+
+.item {
+  padding: 1rem;
+  border: 1px #bebebe solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: #1a7592;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.image {
+  position: absolute;
+  left: -25px;
+  top: -50px;
+  height: 150px;
+  transform: rotate(-20deg);
+}
