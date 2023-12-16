@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: "General Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #9ca6b0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.chatbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.chatbox__heading {
+    background-color: #227393;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.chatbox__title {
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.chatbox__desc {
+    color: #e2e8f0;
+    text-align: center;
+}
+
+.chatbox__messages {
+    background-color: white;
+    padding: 3rem 1rem;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 0 0 auto;
+}
+
+.received p {
+    background-color: #eef2f5;
+    padding: 1rem;
+}
+
+.sent p {
+    background-color: #dff4fd;
+    padding: 1rem;
+    display: inline-block;
+    text-align: end;
+}
+
+
+.santa {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.message-info {
+    color: #9ca6b0;
+    font-size: 0.875rem;
+}
+
+.santa__img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.user {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.chatbox__answer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+    border-top: #d8d9da 2px solid;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.plane {
+    fill: #227393;
+    cursor: pointer;
+}
+
+.hide {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem;
+}
+
+.chevron {
+    background-color: #227393;
+    border-radius: 50%;
+    fill: white;
+    padding: 1.5rem;
+    cursor: pointer;
+
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+
+}
+
+/* lg */
+@media (min-width: 1024px) {
+
+}
+
+/* xL */
+@media (min-width: 1280px) {
+
+}
+
+/* 2xL */
+@media (min-width: 1536px) {
+  
+}
