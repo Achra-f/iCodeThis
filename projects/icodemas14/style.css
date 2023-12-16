@@ -1,10 +1,122 @@
 body {
-    margin: 0;
-    font-family: "General Sans", sans-serif;
+  margin: 0;
+  font-family: "General Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.container {
+    background-image: url("https://icodethis.com/images/iCodeMas/footer_bg.png");
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 5rem 3rem;
+    position: relative;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+}
+
+.col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+
+}
+
+.col__title {
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.copyright {
+    color: 	rgb(203, 213, 225, 0.8);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-color: #9ca6b0;
+}
+
+.image {
+    position: absolute;
+    right: 1px;
+    bottom: -5px;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .container {
+      max-width: 475px;
+    }
   }
   
+  /* sm */
+  @media (min-width: 640px) {
+    .container {
+      max-width: 640px;
+    }
+   
+  }
+  
+  /* md */
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+    .footer {
+        flex-direction: row;
+    }
+    .copyright {
+        align-items:start;
+        justify-content: left;
+    }
+    
+
+  }
+  
+  /* lg */
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  /* xL */
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  
+  /* 2xL */
+  @media (min-width: 1536px) {
+    .container {
+      max-width: 1536px;
+    }
+  }
