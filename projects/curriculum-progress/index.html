@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        customBG: '#e3e1ef',
+                        customPurple: '#2b2960'
+                    }
+                }
+            }
+        }
+    </script>
+    
+
+<body class="bg-customBG">
+    <div class="container mx-auto flex items-center justify-center h-screen">
+        <div class="flex bg-white flex-col rounded-lg width-50 p-10">
+            <div class="flex flex-col items-center border-8 p-6 rounded-full border-t-indigo-500 ">
+                <div class="text-4xl font-bold">25%</div>
+                <div class="text-gray-800 text-sm">Content <br> progress</div>
+            </div>
+            <div class="flex flex-col my-6">
+                <h1 class="text-2xl font-bold">curriculum</h1>
+                <ul>
+                    <li class="p-3 flex gap-3 border-2 rounded-md border-white hover:border-customPurple">
+                        <div>
+                            <input type="checkbox">
+                        </div>
+                        <div class="flex flex-col">
+                            <h2 class="font-bold">Chapter 1</h2>
+                            <p class="text-gray-800">Introduction</p>
+                        </div>
+                    </li>
+                    <li>
+                        <li class="p-3 flex gap-3 border-2 rounded-md border-white hover:border-customPurple">
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                            <div class="flex flex-col">
+                                <h2 class="font-bold">Chapter 2</h2>
+                                <p class="text-gray-800">Information architecture</p>
+                            </div>
+                        </li>
+                    </li>
+                    <li>
+                        <li class="p-3 flex gap-3 border-2 rounded-md border-white hover:border-customPurple">
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                            <div class="flex flex-col">
+                                <h2 class="font-bold">Chapter 3</h2>
+                                <p class="text-gray-800">Data and Security</p>
+                            </div>
+                        </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
